@@ -86,7 +86,7 @@ The interactive filters allow for tailored analysis based on location and time, 
 
 ### 🖼️ Dashboard Preview
 
-![Bank_analysis](.<Bank>.png)
+![Bank_analysis](Bank.png)
 
 > _A visual representation of the bank loan analytics dashboard, showcasing loan metrics, trends, and demographic insights._
 
