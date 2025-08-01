@@ -187,7 +187,7 @@ Anomalies and risk ratios are clearly flagged for timely action, making this das
 
 ### 🖼️ Dashboard Preview
 
-![Debit Credit Dashboard](Debit_Creditpng)
+![Debit Credit Dashboard](Debit_Credit.png)
 
 > _An interactive dashboard analyzing debit-credit balance, high-risk transactions, and volume distribution across banks and branches._
 
