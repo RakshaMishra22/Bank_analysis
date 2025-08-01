@@ -91,3 +91,103 @@ The interactive filters allow for tailored analysis based on location and time, 
 > _A visual representation of the bank loan analytics dashboard, showcasing loan metrics, trends, and demographic insights._
 
 
+
+## 💳 Debit & Credit Transaction Dashboard
+
+This dashboard offers a comprehensive view of debit and credit transaction activity across different banks, branches, and methods. It also provides insights into account behavior, transaction risks, and frequency anomalies to support fraud detection and financial transparency.
+
+---
+
+### 🔹 Overview
+
+**Title:** **DEBIT & CREDIT ANALYTICS**  
+The dashboard focuses on understanding **transaction patterns**, **branch performance**, and **risk flags** across the banking system. It provides real-time visibility into transaction types, frequency, and volume distribution, helping stakeholders maintain financial control and detect anomalies.
+
+---
+
+### 📌 Key Metrics (Top Row)
+
+| Metric                     | Value       | Description                                                                 |
+|----------------------------|-------------|-----------------------------------------------------------------------------|
+| **Credit Amount**          | ₹127.60M    | Total credited amount across accounts.                                      |
+| **Debit Amount**           | ₹127.29M    | Total debited amount from accounts.                                         |
+| **Account Activity Ratio** | 0.00019     | Indicates the transaction frequency per account — lower ratio may flag inactivity or risk. |
+| **Net Transaction Amount** | ₹318.12K    | Total value of net transactions (credits minus debits or balance shift).    |
+| **Debit to Credit Ratio**  | 1.00        | Indicates balanced transactional behavior between debit and credit flows.   |
+
+---
+
+### 📍 Visuals & Analysis
+
+#### 1. **Bank Transaction Growth (Line Chart)**  
+Monthly transaction growth over the year:
+- Fairly stable between 3.7M and 4.1M from Jan to Nov.
+- **Notable anomaly:** Sudden drop to 0.1M in December and sharp recovery in January — suggests irregular system behavior or high-risk event.
+
+#### 2. **High Risk Transaction Flag (Donut Chart)**  
+- **High Risk Transactions:** 27.45%  
+- **Normal Transactions:** 72.55%  
+This metric helps evaluate the percentage of flagged suspicious activity versus normal transactions.
+
+#### 3. **Transaction Volume by Bank (Bar Chart)**  
+Compares volume handled by major banks:
+- **Top Performers:**  
+  - Kotak Mahindra: ₹42.8M  
+  - Axis Bank: ₹42.7M  
+  - SBI, ICICI, PNB — all close in range  
+  - HDFC Bank: ₹41.9M
+
+#### 4. **Transaction by Branch (Treemap)**  
+Highlights transaction values by branches:
+- All branches hover around the ₹42M mark — including City Center, Main, Downtown, East, Suburban, and North.
+- Reflects consistent distribution of transactions across operational areas.
+
+#### 5. **Transaction Distribution Method (Pie Chart)**  
+Breakdown by payment mode:
+- **Debit Card:** 33.41%  
+- **Credit Card:** 33.32%  
+- **Bank Transfer:** 33.27%  
+Near-perfect balance shows even distribution of transaction methods — indicating broad consumer behavior patterns.
+
+#### 6. **Suspicious Transaction Frequency (Line Chart)**  
+Visualizes monthly trend of flagged/suspicious activity:
+- Consistent values around 9.3M–10M throughout the year.
+- **Major spike in December (14M)** followed by a drop in January — may signal system alerts, fraudulent activity, or internal reviews.
+
+---
+
+### 🎛 Filters (Left Panel)
+
+- **Branch Selector:** Filter by City Center, Downtown, East Branch, etc.  
+- **Transaction Method Selector:** Choose between Bank Transfer, Credit Card, Debit Card
+
+These filters allow users to isolate patterns within specific branches or transaction types.
+
+---
+
+### 🧠 Conclusion
+
+This dashboard delivers key insights into **transaction health, risk detection, and operational consistency**. It enables banks and analysts to:
+
+- Track real-time debit/credit volume  
+- Flag potential high-risk or unusual activity  
+- Analyze trends by method, branch, and bank  
+- Maintain a balanced transactional ecosystem  
+
+Anomalies and risk ratios are clearly flagged for timely action, making this dashboard essential for fraud prevention and operational monitoring.
+
+---
+
+### 🛠 Built With
+
+- **Tool:** Tableau / Power BI  
+- **Data Sources:** Transaction logs, fraud detection systems, account metadata
+
+---
+
+### 🖼️ Dashboard Preview
+
+![Debit Credit Dashboard](Debit_Creditpng)
+
+> _An interactive dashboard analyzing debit-credit balance, high-risk transactions, and volume distribution across banks and branches._
+
